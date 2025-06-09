@@ -51,7 +51,7 @@ html, body, #root {
   padding: 20px;
 }
 
-/* Hero heading */
+
 .hero h1 {
   font-size: 24px;
   font-style: italic;
@@ -60,7 +60,7 @@ html, body, #root {
   text-shadow: 1px 1px 4px black;
 }
 
-/* Order Now button */
+
 .order-btn {
   background-color: orange;
   color: black;
@@ -73,7 +73,7 @@ html, body, #root {
   border-radius: 4px;
 }
 
-/* Food image gallery */
+
 .food-gallery {
   display: flex;
   justify-content: space-around;
