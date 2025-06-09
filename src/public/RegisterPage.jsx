@@ -7,7 +7,7 @@ import bgImage from '../assets/img4.jpg';
 function RegisterPage() {
   return (
     <div className="register-container">
-      {/* Background Image */}
+      
       <div
         className="background-image"
         style={{
@@ -21,7 +21,6 @@ function RegisterPage() {
         }}
       ></div>
 
-      {/* Register Form Box */}
       <div className="register-box">
         <img src={burgerImage} alt="Food" className="food-image" />
 
