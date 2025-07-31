@@ -18,7 +18,6 @@ html, body, #root {
   justify-content: center; 
 }
 
-
 .nav-links {
   display: flex;
   gap: 30px;
@@ -51,7 +50,7 @@ html, body, #root {
   padding: 20px;
 }
 
-/* Hero heading */
+
 .hero h1 {
   font-size: 24px;
   font-style: italic;
@@ -60,7 +59,7 @@ html, body, #root {
   text-shadow: 1px 1px 4px black;
 }
 
-/* Order Now button */
+
 .order-btn {
   background-color: orange;
   color: black;

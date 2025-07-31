@@ -1,13 +1,13 @@
-
 import React from 'react';
 import './RegisterPage.css'; 
 import burgerImage from '../assets/img6.jpg';
 import bgImage from '../assets/img4.jpg';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 function RegisterPage() {
   return (
     <div className="register-container">
-      {/* Background Image */}
+      
       <div
         className="background-image"
         style={{
@@ -21,7 +21,6 @@ function RegisterPage() {
         }}
       ></div>
 
-      {/* Register Form Box */}
       <div className="register-box">
         <img src={burgerImage} alt="Food" className="food-image" />
 

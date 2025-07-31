@@ -1,0 +1,280 @@
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: #f9fafb;
+}
+
+.sidebar {
+  width: 16rem;
+  background: white;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #facc15;
+  margin-bottom: 2.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #4b5563;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-item.active {
+  background-color: #facc15;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+}
+
+.upgrade-box {
+  background-color: #facc15;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.upgrade-button {
+  background: white;
+  color: #facc15;
+  padding: 0.25rem 0.75rem;
+  margin-top: 0.5rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  position: relative;
+  width: 24rem;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 9999px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+}
+
+.promo-banner {
+  background: #fde68a;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo-banner img {
+  height: 6rem;
+  border-radius: 9999px;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.category-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.category-item {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.category-item svg {
+  font-size: 1.5rem;
+  color: #facc15;
+}
+
+.dish-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.dish-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  position: relative;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.discount-badge {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background: #ef4444;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.dish-card img {
+  height: 8rem;
+  margin: auto;
+  display: block;
+}
+
+.dish-info {
+  margin-top: 1rem;
+  position: relative;
+}
+
+.dish-info .price {
+  color: #facc15;
+}
+
+.add-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #facc15;
+  color: white;
+  border: none;
+  padding: 0.25rem;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.right-sidebar {
+  width: 18rem;
+  background: white;
+  padding: 1.5rem;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top-bar img {
+  border-radius: 9999px;
+}
+
+.balance-section,
+.address-section,
+.order-summary {
+  margin-top: 2rem;
+}
+
+.balance-box {
+  background: #fef3c7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.balance-box h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.balance-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.top-up {
+  background: #facc15;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border: none;
+  border-radius: 0.375rem;
+}
+
+.transfer {
+  background: white;
+  border: 1px solid #facc15;
+  color: #facc15;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.375rem;
+}
+
+.address {
+  color: #facc15;
+  margin-top: 0.25rem;
+}
+
+.change {
+  background: none;
+  border: none;
+  font-size: 0.75rem;
+  color: #facc15;
+  cursor: pointer;
+  margin-top: 0.25rem;
+}
+
+.address-actions button {
+  background: #f3f4f6;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.25rem;
+  font-size: 0.75rem;
+  border-radius: 0.375rem;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #facc15;
+  margin-top: 0.5rem;
+}

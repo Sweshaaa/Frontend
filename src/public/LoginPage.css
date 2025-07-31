@@ -1,4 +1,3 @@
-
 .login-container {
   background-image: url('../assets/img4.jpg'); 
   background-size: cover;
@@ -8,10 +7,11 @@
   justify-content: center;
   align-items: center;
 }
-
+ 
 .login-box {
   background-color: white;
-  width: 400px;
+  color: black;
+  width: 400px; 
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
@@ -38,7 +38,7 @@
   padding: 10px;
   margin-top: 5px;
   background-color: white;
-  border: 1px solid gray;
+  border: 1px solid black;
   border-radius: 4px;
   font-size: 14px;
 }
@@ -48,11 +48,15 @@
   font-weight: bold;
   margin: 10px 0;
   font-size: 12px;
-  cursor: pointer;
-  color: lightblue;
 }
 
-.forgot-password:hover {
+.forgot-password a {
+  color: lightblue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.forgot-password a:hover {
   text-decoration: underline;
 }
 
@@ -74,18 +78,19 @@
 
 .signup-text {
   background-color: black;
+  color: white;
   text-align: center;
   margin-top: 20px;
   padding: 10px;
   font-weight: bold;
 }
 
-.signin-link {
+.signup-text a {
   text-decoration: underline;
-  cursor: pointer;
   color: lightblue;
+  cursor: pointer;
 }
 
-.signin-link:hover {
+.signup-text a:hover {
   color: blue;
 }

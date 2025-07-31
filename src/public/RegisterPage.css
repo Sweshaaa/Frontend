@@ -9,6 +9,7 @@
 
 .register-box {
   background-color: white;
+  color: black;
   width: 400px;
   border-radius: 8px;
   overflow: hidden;
@@ -57,6 +58,7 @@
   margin-top: 20px;
   font-weight: bold;
   background-color: black;
+  color: white;
   padding: 10px;
   border-radius: 4px;
 }
