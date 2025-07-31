@@ -11,7 +11,7 @@ function HomePage() {
 
   return (
     <div className="homepage-container">
-      {/* Navigation Bar */}
+     
       <nav className="navbar">
         <ul className="nav-links">
           <li><a href="#" onClick={() => navigate('/')}>Home</a></li>
@@ -21,13 +21,13 @@ function HomePage() {
         </ul>
       </nav>
 
-      {/* Hero Section */}
+      
       <div className="hero" style={{ backgroundImage: `url(${heroImage})` }}>
         <h1>Welcome to Online Food Ordering System</h1>
         <button className="order-btn" onClick={() => navigate('/menu')}>Order Now</button>
       </div>
 
-      {/* Food Gallery */}
+     
       <div className="food-gallery">
         <img src={pancakeImage} alt="Pancakes" />
         <img src={wrapImage} alt="Wrap" />
