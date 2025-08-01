@@ -1,6 +1,6 @@
 import React from 'react';
 import "./ForgotPassword.css";
-import foodImg from '../assets/img7.jpg'; // make sure you have the image
+import foodImg from '../assets/img7.jpg'; 
 
 
 function ForgotPassword() {
