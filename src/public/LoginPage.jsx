@@ -10,9 +10,7 @@ function LoginPage() {
     // TODO: Add actual login validation here (API call, etc.)
     // For now, navigate directly to dashboard
     navigate('/dashboard');
-  };
-
-  return (
+  };return (
     <div className="login-container">
       <div className="login-box">
         <img src={pizzaImage} alt="Pizza" className="pizza-image" />
